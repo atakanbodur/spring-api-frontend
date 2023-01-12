@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+Thu Jan 12 22:44:35 TRT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0185-a783-418a-000002d96e70 
+on database directory memory:C:\Users\bodur\Documents\projects\spring-api-frontend\myInMemDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Users/bodur/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.14.2.0/7efad40ef52fbb1f08142f07a83b42d29e47d8ce/derby-10.14.2.0.jar
+java.vendor=Amazon.com Inc.
+java.runtime.version=17.0.4.1+9-LTS
+user.dir=C:\Users\bodur\Documents\projects\spring-api-frontend
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 12 22:53:36 TRT 2023:
+Shutting down instance a816c00e-0185-a783-418a-000002d96e70 on database directory memory:C:\Users\bodur\Documents\projects\spring-api-frontend\myInMemDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa 

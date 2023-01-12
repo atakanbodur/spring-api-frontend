@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="myscripts.js"></script>
+</head>
+
+<body>
+    <div class="form_container" onsubmit="return handle_form_submission()">
+        <form>
+            <input type="text" id="searchName">
+            <input type="submit" value="Submit" id="button">
+        </form>
+    </div>
+    <div>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Select</th>
+                    <th>artist</th>
+                    <th>id</th>
+                    <th>length</th>
+                    <th>name</th>
+                </tr>
+            </thead>
+            <tbody id="dataBody"></tbody>
+        </table>
+        <input type="text" id="playlistName">
+        <button onClick="createPlaylist()">Create playlist</button>
+        <a href="playlist.html">Show Platlists</a>
+    </div>
+
+</body>
+
+</html>
